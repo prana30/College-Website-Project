@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College Website Design</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;1,300&family=Poppins:ital,wght@0,200;0,300;0,400;1,500;1,600&display=swap" rel="stylesheet">"
+   <link rel="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png"</a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-window-close" onclick="hideMenu"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu"></i>
+        </nav>
+        <h1>Our Courses</h1>
+    </section>
+
+    <section class="course">
+        <h1>Courses We Offer</h1>
+        <p>These are the Couses we provide in our Institute</p>
+        <div class="row">
+            <div class="course-col">
+                <h3>Bachelor of Technology</h3>
+                <p>In this course we provide the  Bachelor's Degree to the students after the study of four years in the field of Engineering.</p>
+            </div>
+            <div class="course-col">
+                <h3>Master of Technology</h3>
+                <p>In this course we provide the Master's Degree to the students after completing the stury of two years in the field of Engineering.</p>
+
+            </div>
+        </div>
+
+    </section>
+
+    <section class="facilities">
+        <h1>Our Facilities</h1>
+        <p>These are the Faclilties provided to students in our Institute.</p>
+
+        <div class="row">
+            <div class="facilities-col">
+                <img src="images/lib.png">
+                <h3>LIBRARY</h3>
+            </div>
+            <div class="facilities-col">
+                <img src="images/labs.png">
+                <h3>COMPUTER LABS</h3>
+            </div>
+            <div class="facilities-col">
+                <img src="images/mess.png">
+                <h3>MESS</h3>
+            </div>
+        </div>
+    </section>
+
+    
+        
+
+    
+      
+    
+
+    <!------footer------->
+    <section class="footer">
+    <h4>About Us</h4>
+    <p>We are one f the most Prestigous Govt. addid autonomous Institute in Maharashtra.</p>
+    <div class="icons">
+        <i class="fa fa-facebook-square"></i> 
+        <i class="fa fa-twitter-square"></i> 
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin-square"></i>
+    </div>
+    <P>Made with <i class="fa fa-heart-o"></i> by Patiksha Narwade</P>
+    </section>
+
+
+
+    <!-----------JavaScript for Toggle Meun---------->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMeun(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+
+    </script>
+    
+</body>
+</html>
