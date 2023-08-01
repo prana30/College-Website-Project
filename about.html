@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College Website Design</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;1,300&family=Poppins:ital,wght@0,200;0,300;0,400;1,500;1,600&display=swap" rel="stylesheet">"
+   <link rel="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png"</a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-window-close" onclick="hideMenu"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu"></i>
+        </nav>
+        <h1>About Us</h1>
+    </section>
+
+    <!------about os content---->
+    <section class="about-us">
+        <div class="row">
+            <div clss="about-col">
+                <h1>We are amongs the top most Institutes in Maharahtra</h1>
+                <p>Shri Guru Gobind Singhji Institute of Engineering and Technology, Nanded established in 1981<br>
+                 has grown to the level of being recognized as a leader in the area of tecnical educational and<br> 
+                 research Started with just two undergraduate programs, it now offers 10 undergraduate and <br>
+                 1- postgraduate programs. It offers Ph.D program under its affiliating University, Swami Ramanand<br>
+                 Teerth Marathwada University, Nanded and under Quality Improvement program od Ministry of HRD, <br>
+                 Government of India, New Delhi.SGGSIE&T is rich in highly qualified faculty with more than 50% of<br>
+                  the regular faculty being doctorates.</p>
+                <a href="" class="hero-button red-button">EXPLORE NOW</a>
+            </div>
+            <div class="about-col">
+                <img src="images/about.png">
+            </div>
+            </div>
+    </section>
+
+    
+      
+    
+
+    <!------footer------->
+    <section class="footer">
+    <h4>About Us</h4>
+    <p>We are one f the most Prestigous Govt. addid autonomous Institute in Maharashtra.</p>
+    <div class="icons">
+        <i class="fa fa-facebook-square"></i> 
+        <i class="fa fa-twitter-square"></i> 
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin-square"></i>
+    </div>
+    <P>Made with <i class="fa fa-heart-o"></i> by Patiksha Narwade</P>
+    </section>
+
+
+
+    <!-----------JavaScript for Toggle Meun---------->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMeun(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+
+    </script>
+    
+</body>
+</html>
