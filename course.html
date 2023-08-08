@@ -7,12 +7,13 @@
     <link rel="<link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;1,300&family=Poppins:ital,wght@0,200;0,300;0,400;1,500;1,600&display=swap" rel="stylesheet">"
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.css">
    <link rel="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
 </head>
 <body>
     <section class="sub-header">
         <nav>
-            <a href="index.html"><img src="images/logo.png"</a>
+            <a href="index.html"><img src="images/logo.png"></a>
             <div class="nav-links" id="navLinks">
                 <i class="fa fa-window-close" onclick="hideMenu"></i>
                 <ul>
@@ -45,24 +46,43 @@
 
     </section>
 
+        <!--------facilities------->
     <section class="facilities">
-        <h1>Our Facilities</h1>
+        <h1 >Our Facilities</h1>
         <p>These are the Faclilties provided to students in our Institute.</p>
 
-        <div class="row">
+        <!-- <div class="row">
             <div class="facilities-col">
-                <img src="images/lib.png">
+                <img class="campusimgs" src="images/lib.png">
                 <h3>LIBRARY</h3>
             </div>
             <div class="facilities-col">
-                <img src="images/labs.png">
+                <img class="campusimgs" src="images/labs.png">
                 <h3>COMPUTER LABS</h3>
             </div>
             <div class="facilities-col">
-                <img src="images/mess.png">
+                <img class="campusimgs" src="images/mess.png">
+                <h3>MESS</h3>
+            </div>
+        </div> -->
+
+
+        <div class="facilities-flex" style="display: flex; align-items: flex-start; justify-content: space-around; ">
+            <div class="facilities-div" style="height: 300px; width: 28%;" >
+                <img style="height: 100%; width: 100%;" src="images/lib.png">
+                <h3>LIBRARY</h3>
+            </div>
+            <div class="facilities-div" style="height: 300px; width: 28%;">
+                <img style="height: 100%; width: 100%;" src="images/labs.png">
+                <h3>COMPUTER LABS</h3>
+            </div>
+            <div class="facilities-div" style="height: 300px; width: 28%;">
+                <img style="height: 100%; width: 100%;"  src="images/mess.png">
                 <h3>MESS</h3>
             </div>
         </div>
+
+
     </section>
 
     
