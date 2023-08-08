@@ -3,14 +3,22 @@
     padding: 0;
     font-family: 'Merriweather', serif;
 font-family: 'Poppins', sans-serif;
+/* box-sizing: border-box; */
+}
+li  a {
+    text-decoration: none !important;
+    color: white !important;
 }
 .header{
     min-height: 100vh;
     width: 100%;
-    background-image: linear-gradient(rgba(4,9,30,0.7),rbga(4,9,30,0.7)),url(images/sggs.png);
+    /* background-image: linear-gradient(rgba(4,9,30,0.7),rbga(4,9,30,0.7)),url(images/sggsbg.jpg); */
     background-position: center;
     background-size: cover;
     position: relative;
+}
+.collegeLogo {
+    border-radius: 100%;
 }
 nav{
     display: flex;
@@ -113,6 +121,13 @@ nav.fa{
     .nav-links ul{
         padding: 30px;
     }
+    .facilities-flex {
+        flex-direction: column;
+    }
+    .facilities-div {
+        width: 90% !important;
+        margin: 30px;
+    }
 }
 
 /*------course-----*/
@@ -133,11 +148,22 @@ p{
     line-height: 22px;
     padding: 10px;
 }
-
+.jaadu {
+    display: flex;
+    /* flex-direction: row; */
+}
+.branches {
+    margin-top: 5px ;
+}
 .row{
+    min-height: 150px;
     margin-top: 5%;
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
+}
+.campusimg {
+    height: 20vw;
 }
 .course-col{
     flex-basis: 31%;
@@ -160,6 +186,9 @@ h3{
     .row{
         flex-direction: column;
     }
+    .campusimg {
+        height: auto;
+    }
 }
 /*---------campus------*/
 .campus{
@@ -174,6 +203,7 @@ h3{
     margin-bottom: 30px;
     position: relative;
     overflow: hidden;
+    height: 100%;
 }
 .campus-col img{
     width: 100%;
@@ -220,7 +250,9 @@ h3{
     border-radius: 10px;
     margin-bottom: 5%;
     text-align: left;
+    /* width: 30%; */
 }
+
 .faclities-col img{
     width: 100%;
     border-radius: 10px;
